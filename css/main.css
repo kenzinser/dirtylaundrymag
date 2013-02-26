@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background: #333;
+    color: #eee;
+}
+tr {
+	vertical-align: top;
+}
+
+
+.site-header,
+.main-navigation {
+	position: fixed;
+}
+#content {
+	position: relative;
+		top: 100px;
+}
+.column {
+	width: 320px;
+	margin-right: 20px;
+}
+.issue-title {
+	position: relative;
+	z-index: 9990;
+	font-size: 3em;
+}
+.issue-cover {
+	position: relative;
+		left: -120px;
+	width: 750px;
+}
+
+
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
